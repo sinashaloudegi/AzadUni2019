@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sinash.azaduni">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".AzadUniversity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainPage"
+            android:label="@string/title_activity_main_page"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Daneshkade"
+            android:label="@string/title_activity_daneshkade"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".DaneshkadeHa"
+            android:label="@string/title_activity_daneshkade_ha"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Phone"
+            android:label="@string/title_activity_ostad"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Group"
+            android:label="@string/title_activity_group"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Groups"
+            android:label="@string/title_activity_groups"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Moavenat"
+            android:label="@string/title_activity_moavenat"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".MoavenatHa"
+            android:label="@string/title_activity_moavenat_ha"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Riasat"
+            android:label="@string/title_activity_riasat"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Link"
+            android:label="@string/title_activity_link"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Asatid"
+            android:label="@string/title_activity_asatid"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Modiriat"
+            android:label="@string/title_activity_modiriat"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Akhbar"
+            android:label="@string/title_activity_akhbar"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AzmayeshGahHa"
+            android:label="@string/title_activity_azmayeshgah"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Pazhoheshkadeh"
+            android:label="@string/title_activity_pazhoheshkade"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".NewsList"
+            android:label="@string/title_activity_news_list"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Update"
+            android:label="@string/title_activity_update"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name=".MyService" />
+
+        <activity
+            android:name=".JoziyateKhabar"
+            android:label="@string/title_activity_joziyate_khabar"
+            android:screenOrientation="portrait"></activity>
+
+        <receiver
+            android:name=".MyReceiver"
+            android:enabled="true"
+            android:exported="true"></receiver>
+
+        <activity
+            android:name=".Forms"
+            android:label="@string/title_activity_forms"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".JostojooBarname"
+            android:label="@string/title_activity_jostojoo_barname"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".JostojooySade"
+            android:label="@string/title_activity_jostojooy_sade"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".NatayejJostojoo"
+            android:label="@string/title_activity_natayej_jostojoo"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".JoziateDars"
+            android:label="@string/title_activity_joziate_dars"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".HamayeshVaMosabeghat"
+            android:label="@string/title_activity_hamayesh_va_mosabeghat"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Hamayesh"
+            android:label="@string/title_activity_hamayesh"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Mosabeghat"
+            android:label="@string/title_activity_mosabeghat"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Joziyatham"
+            android:label="@string/title_activity_joziyatham"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".FirstMenu"
+            android:label="@string/title_activity_first_menu"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

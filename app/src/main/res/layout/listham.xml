@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/linerr"
+    android:padding="10dp"
+    android:gravity="center_vertical|right"
+    android:showDividers="beginning"
+    android:background="#ffddf1f7"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/linkham"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/titleham"
+            android:layout_gravity="right"
+            android:textStyle="bold"
+            android:padding="2dp"
+            android:gravity="right"
+            android:textColor="#ff22497d"
+            android:textSize="16dp"
+            android:text="اولین کنفرانس ملی روشهاو رکاربردهای نوین در  تصمیم گیری"
+            android:maxWidth="232dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/timeham"
+            android:padding="2dp"
+            android:textColor="#ff1d1d1d"
+            android:phoneNumber="false"
+            android:text="10 مهرماه 94"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:gravity="right"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:id="@+id/imageham"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_vertical|right"
+        android:src="@drawable/poster" />
+
+</LinearLayout>

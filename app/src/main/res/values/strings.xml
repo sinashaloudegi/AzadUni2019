@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">(آزمایشی)دانشگاه آزاد اسلامی سنندج</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_main_page">(آزمایشی)دانشگاه آزاد اسلامی سنندج</string>
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_daneshkade">دانشکده ها</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_daneshkade_ha">دانشکده ها</string>
+    <string name="title_activity_ostad"></string>
+    <string name="title_activity_group">گروه های آموزشی</string>
+    <string name="title_activity_groups">گروه های آموزشی</string>
+    <string name="title_activity_moavenat">معاونت ها</string>
+    <string name="title_activity_moavenat_ha">معاونت ها</string>
+    <string name="title_activity_riasat">ریاست</string>
+    <string name="title_activity_link">لینک های مفید</string>
+    <string name="title_activity_asatid">اساتید</string>
+    <string name="title_activity_modiriat">مدیریت</string>
+    <string name="title_activity_akhbar">اخبار</string>
+    <string name="title_activity_about">درباره ما</string>
+    <string name="title_activity_pazhoheshkade"> مراکز پژوهشی و تحقیقاتی</string>
+    <string name="title_activity_azmayeshgah">آزمایشگاه ها</string>
+    <string name="title_activity_news_list">لیست اخبار</string>
+    <string name="title_activity_update">Update</string>
+    <string name="title_activity_joziyate_khabar">جزئیات خبر</string>
+    <string name="title_activity_forms">Forms</string>
+    <string name="title_activity_jostojoo_barname">جستجوی برنامه درسی</string>
+    <string name="title_activity_jostojooy_sade">جستجوی ساده</string>
+    <string name="title_activity_natayej_jostojoo">نتایج جستجو</string>
+    <string name="title_activity_joziate_dars">جزئیات درس</string>
+    <string name="title_activity_hamayesh_va_mosabeghat">همایش ها و مسابقات</string>
+    <string name="title_activity_hamayesh">همایش ها و مسابقات</string>
+    <string name="title_activity_mosabeghat">مسابقات</string>
+    <string name="title_activity_joziyatham">رویدادها</string>
+    <string name="title_activity_first_menu">دانشگاه آزاد اسلامی واحد سنندج</string>
+</resources>

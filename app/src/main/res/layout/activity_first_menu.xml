@@ -1,0 +1,369 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.sinash.azaduni.FirstMenu"
+    android:background="@drawable/mainback2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sc1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/sc">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd1">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button"
+                        android:background="@drawable/daneshgahicon"
+                        android:onClick="Onclickd1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="دانشگاه"
+                        android:id="@+id/textView18"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd2">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button13"
+                        android:background="@drawable/riyasaticon"
+                        android:onClick="Onclickd2" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="ریاست"
+                        android:id="@+id/textView19"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd2" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd3">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button2"
+                        android:background="@drawable/moavenathaicon"
+                        android:onClick="Onclickd3" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="معاونت ها"
+                        android:id="@+id/textView20"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd3" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd4">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button3"
+                        android:background="@drawable/daneshkadehaicon"
+                        android:onClick="Onclickd4" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="دانشکده ها"
+                        android:id="@+id/textView21"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd5">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button4"
+                        android:background="@drawable/darbaremaicon"
+                        android:onClick="Onclickd5" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="درباره ما"
+                        android:id="@+id/textView22"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd6">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button5"
+                        android:background="@drawable/azicon"
+                        android:onClick="Onclickd6" />
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="75sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:onClick="Onclickd6"
+                        android:text="مراکز پژوهشی وتحقیقاتی"
+                        android:textColor="#22497d" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd7">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button6"
+                        android:background="@drawable/azmaicon"
+                        android:onClick="Onclickd7" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="آزمایشگاه ها"
+                        android:id="@+id/textView24"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd7" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd8">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button7"
+                        android:background="@drawable/iconhamvamos"
+                        android:onClick="Onclickd8" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="همایش ها"
+                        android:id="@+id/textView25"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd8" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd9">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button8"
+                        android:background="@drawable/akhbaricon"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="Onclickd9" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="اخبار"
+                        android:id="@+id/textView26"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd9" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd10">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button9"
+                        android:background="@drawable/telefonicon"
+                        android:onClick="Onclickd10" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="دفترچه تلفن"
+                        android:id="@+id/textView27"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd11">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button10"
+                        android:background="@drawable/linkicon"
+                        android:onClick="Onclickd11" />
+
+                    <TextView
+                        android:id="@+id/textView28"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd11"
+                        android:text="لینک  های مفید"
+                        android:textColor="#22497d" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:onClick="Onclickd12">
+
+                    <Button
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:id="@+id/button11"
+                        android:background="@drawable/beroozresaniicon"
+                        android:onClick="Onclickd12" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="به روز رسانی"
+                        android:id="@+id/textView29"
+                        android:textColor="#22497d"
+                        android:layout_marginTop="5dp"
+                        android:onClick="Onclickd12" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
